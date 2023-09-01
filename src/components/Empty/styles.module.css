@@ -1,0 +1,22 @@
+.empty {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  text-align: center;
+  padding: 6.4rem 2.4rem;
+}
+
+.empty strong {
+  font-weight: 700;
+  line-height: 140%;
+  color: var(--gray-300);
+}
+
+.empty p {
+  line-height: 140%;
+  color: var(--gray-300);
+}

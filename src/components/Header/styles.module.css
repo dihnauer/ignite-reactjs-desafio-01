@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 7.2rem 0 8rem;
+  background-color: var(--gray-700);
+}
+
+.header span {
+  font-weight: 900;
+  font-size: 4rem;
+  cursor: default;
+}
+
+.header span:first-of-type {
+  color: var(--blue);
+}
+
+.header span:last-of-type {
+  color: var(--purple);
+}

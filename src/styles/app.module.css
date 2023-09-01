@@ -1,0 +1,100 @@
+.container {
+  max-width: 68.8rem;
+  margin: 0 auto;
+}
+
+/* INPUT */
+.input {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: -3rem;
+}
+
+.input input {
+  width: 100%;
+  flex: 1;
+  padding: 1.6rem;
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+}
+
+.input input::placeholder {
+  color: var(--gray-300);
+}
+
+.input button {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--gray-100);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.6rem;
+  background-color: var(--blue-dark);
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.input button:hover {
+  background-color: var(--blue);
+}
+
+.input button svg {
+  max-width: 1.6rem;
+}
+
+/* TASKS */
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-top: 6.4rem;
+}
+
+.tasks .infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tasks .infos .created,
+.tasks .infos .done {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.tasks .infos .created strong,
+.tasks .infos .done strong {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.tasks .infos .created strong {
+  color: var(--blue);
+}
+
+.tasks .infos .done strong {
+  color: var(--purple);
+}
+
+.tasks .infos .created span,
+.tasks .infos .done span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+}
+
+/* TASK */
+.taskWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
