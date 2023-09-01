@@ -6,7 +6,7 @@
 
 <br />
 
-App desenvolvido comnforme desafio proposto na trilha de ReactJS do Ignite da @rocketseat.
+App desenvolvido conforme desafio proposto na trilha de ReactJS do Ignite da @rocketseat.
 
 ### 🧑‍💻 Como executar
 
